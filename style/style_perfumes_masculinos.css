@@ -1,0 +1,214 @@
+
+
+.carrossel_direito1{
+    background-color: rgb(226, 231, 229);
+}
+
+
+
+.carrossel_direito1 .conteiner{
+    max-width: 1220px;
+    margin: 0 auto ;
+    min-height: 600px;
+    
+}
+
+
+.carrossel_direito1 .conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.carrossel_direito1 .descricao_slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.carrossel_direito1 .descricao_slide h1{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.carrossel_direito1 .slider{
+    margin: auto auto;
+    max-width: 400px;
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+.carrossel_direito1 .slides{
+    width: 400%;
+    height: 500px;
+    display: flex;
+}
+
+.carrossel_direito1 .slides input {
+    display: none;
+}
+
+.carrossel_direito1 .slide img {
+    max-width: 400px;
+    height: 500px;
+}
+
+.carrossel_direito1 .slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+
+
+.carrossel_direito1 .manual-navigation{
+    position: absolute;
+    width: 400px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.carrossel_direito1 .manual-btn{
+    border: 2px solid #8663c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:1s;
+}
+.carrossel_direito1 .manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.carrossel_direito1 .manual-btn:hover {
+    background-color: #8663c2;
+}
+
+.carrossel_direito1 #radio1:checked ~ .first{
+    margin-left: 0%;
+}
+.carrossel_direito1 #radio2:checked ~ .first{
+    margin-left: -25%;
+}
+.carrossel_direito1 #radio3:checked ~ .first{
+    margin-left: -50%;
+}
+.carrossel_direito1 #radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.carrossel_direito1 .navigation-auto div {
+    border: 2px solid #8663c2;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.carrossel_direito1 .navigation-auto {
+    position: absolute;
+    width: 400px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.carrossel_direito1 .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+.carrossel_direito1 #radio1:checked~.navigation-auto .auto-btn1{
+    background-color: #8663c2;
+}
+
+.carrossel_direito1 #radio2:checked~.navigation-auto .auto-btn2{
+    background-color: #8663c2;
+}
+
+.carrossel_direito1 #radio3:checked~.navigation-auto .auto-btn3{
+    background-color: #8663c2;
+}
+
+.carrossel_direito1 #radio4:checked~.navigation-auto .auto-btn4{
+    background-color: #8663c2;
+}
+
+#sessao_1{
+    background-color: #fff;
+
+}
+
+
+#sessao_1{
+display: flex;
+justify-content: center;
+}
+
+
+#conteiner_perfumes_masculinos_1{
+    background-color: #fff;
+}
+
+#conteiner_perfumes_masculinos_1{
+   width: 1220px;
+}
+
+
+#conteiner_perfumes_masculinos_1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+
+
+#box_itens_f1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+#box_itens_f1{
+    max-width: 100%;
+
+}
+
+#box_itens_f2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+#box_itens_f2{
+    max-width: 100%;
+
+}
+
+
+
+
+#box_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+
+}
+
+
+
+#sessao_banner_masculino{
+    display: flex;
+    justify-content: center;
+}
+
