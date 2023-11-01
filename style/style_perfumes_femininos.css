@@ -1,7 +1,7 @@
 
 
 .carrossel_direito1{
-    background-color: rgb(216, 105, 194);
+    background-color: rgb(244, 207, 237);
 }
 
 
@@ -21,14 +21,14 @@
     flex-wrap: wrap;
 }
 
+
 .carrossel_direito1 .descricao_slide{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
+    align-items: center;
+    margin: 20px;
 }
-
 .carrossel_direito1 .descricao_slide h1{
     display: flex;
     flex-wrap: wrap;
@@ -62,7 +62,6 @@
 
 .carrossel_direito1 .slide{
     width: 25%;
-    position: relative;
     transition: 2s;
 }
 
